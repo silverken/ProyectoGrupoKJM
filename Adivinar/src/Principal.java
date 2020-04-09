@@ -7,17 +7,17 @@ public class Principal {
 		System.out.println("Juego de adivinar la respuesta correcta");
 		int puntaje=0;
 		int valorP= 25;
-		
-		String p1= "Vas en un avion, detras tienes un camion, y delante un caballo, ¿Donde estas?"; 
+		//Juego de preguntas Modf kevin
+		String p1= "Vas en un avion, detras tienes un camion, y delante un caballo, Â¿Donde estas?"; 
 		String r1= "tiovivo";
 		
-		String p2= "Doce señoras, todas con medias y sin zapatos, ¿Que son?";
+		String p2= "Doce seÃ±oras, todas con medias y sin zapatos, Â¿Que son?";
 		String r2= "horas";
 		
-		String p3= "¿Donde hay rios pero no agua, ciudades pero no casas y bosques pero no arboles?";
+		String p3= "Â¿Donde hay rios pero no agua, ciudades pero no casas y bosques pero no arboles?";
 		String r3= "mapa";
 		
-		String p4= "Silva sin labios, corre sin pies, en la espalda te pega y no lo ves, ¿Que es?";
+		String p4= "Silva sin labios, corre sin pies, en la espalda te pega y no lo ves, Â¿Que es?";
 		String r4= "viento";
 		
 		sc = new Scanner(System.in);
