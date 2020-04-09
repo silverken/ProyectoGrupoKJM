@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Principal {
+	private static Scanner sc;
+
 	public static void main(String[] args) {
 		System.out.println("Juego de adivinar la respuesta correcta");
 		int puntaje=0;
@@ -18,7 +20,7 @@ public class Principal {
 		String p4= "Silva sin labios, corre sin pies, en la espalda te pega y no lo ves, ¿Que es?";
 		String r4= "viento";
 		
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 			
 		System.out.println("Primera adivinanza");
 		System.out.println(p1);
