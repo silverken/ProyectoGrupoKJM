@@ -3,7 +3,7 @@ package juego3;
 import java.util.Scanner;
 
 public class Principal {
-
+//modificado por Juan matias
 	public static void main(String[] args) {
 
 	 Scanner sc = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class Principal {
 
 	 System.out.println("Seras capaz de adivinar el numero mauajajajajaajaja :V");
 
-	 System.out.print("Tienes 5 intentos, ni uno mas , ni uno menos :V escribe un número entre 1 y 100: ");
+	 System.out.print("Tienes 5 intentos, ni uno mas , ni uno menos :V escribe un nÃºmero entre 1 y 100: ");
 	 b = sc.nextInt();
 
 	 for (i=0; i<=4; i++) { 
@@ -22,23 +22,23 @@ public class Principal {
 	    // lo primero es ver si han acertado xD
 	    
 	    if (a == b) {  
-	      System.out.println("¡Has acertado!"); 
+	      System.out.println("Â¡Has acertado!"); 
 	      break; } 
 	    
 	    // Luego da la partida por perdida si ya has gastado 5 intentos.     
 	    
 	    else if (i == 4) { 
-	      System.out.println("Lo siento: ¡has perdido!. El número era el: " + a); 
+	      System.out.println("Lo siento: Â¡has perdido!. El nÃºmero era el: " + a); 
 	      break; } 
 	    
-	    // Si no es ninguno de los casos anteriores, comparamos números.
+	    // Si no es ninguno de los casos anteriores, comparamos nÃºmeros.
 	    
 	    else if (a > b) 
-	      System.out.println("El número misterixo es MAYOR que " + b);
+	      System.out.println("El nÃºmero misterixo es MAYOR que " + b);
 	    else if (a < b)
-	      System.out.println("El número misterixo es MENOR que " + b);
+	      System.out.println("El nÃºmero misterixo es MENOR que " + b);
 
-	    // Por último un bucle if que sirve para dar una pista y avisarte de la última oportunidad.
+	    // Por Ãºltimo un bucle if que sirve para dar una pista y avisarte de la Ãºltima oportunidad.
 	    
 	    if (i <=1) { 
 	     System.out.print("Otro intento , ar lio :V: "); 
@@ -46,10 +46,10 @@ public class Principal {
 	    else if (i ==2) { 
 	    int x = (int) (a/10);
 	    System.out.println("Una pista, aunque vas a perder igual :V, la primera cifra es " + x);
-	    System.out.print("Inténtalo de nuevo animo: ");
+	    System.out.print("IntÃ©ntalo de nuevo animo: ");
 	    b = sc.nextInt(); } 
 	   else if (i >= 3) {
-	   System.out.print("Oh, oh... ya vienen con el ataud :V ÚLTIMO intento: ");
+	   System.out.print("Oh, oh... ya vienen con el ataud :V ÃšLTIMO intento: ");
 	   b = sc.nextInt(); }
 	    }
 	  }
