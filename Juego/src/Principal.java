@@ -21,6 +21,7 @@ public class Principal {
 	System.out.println("Así es invertido: "+CadenaInvertida);
 	
 	}
+	
 	sc.close();
 	}
 
