@@ -16,6 +16,7 @@ public class Principal {
 	CadenaInvertida=builder.reverse().toString();
 	
 	}
+	
 	sc.close();
 	}
 
