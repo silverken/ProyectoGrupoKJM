@@ -4,6 +4,9 @@ public class Principal {
 	private static Scanner sc;
 
 	public static void main(String[] args) {
+		/**
+		 * @author JMOR
+		 */
 		System.out.println("Juego de adivinar la respuesta correcta");
 		int puntaje=0;
 		int valorP= 25;
